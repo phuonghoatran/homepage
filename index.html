@@ -39,6 +39,7 @@ h2{font-size:24px;margin:0 0 16px}
 .tl{border-left:2px solid var(--line);padding-left:16px;margin:0 0 16px 4px}
 .tl small{color:var(--mute)}
 .contact{text-align:center;background:var(--accbg);border-radius:16px;padding:40px 20px;margin:24px 0}
+button.btn{cursor:pointer;font:inherit;font-weight:600}
 footer{color:var(--mute);font-size:13px;text-align:center;padding:24px 0}
 </style>
 </head>
@@ -49,7 +50,7 @@ footer{color:var(--mute);font-size:13px;text-align:center;padding:24px 0}
 <span class="tag">Open to L&amp;D Lead / Manager roles</span>
 <h1>I lead learning programs across countries. Learners rate them 4.9/5.</h1>
 <p class="lead">Learning &amp; Development Expert with 10+ years in program leadership, curriculum design and training delivery. Based in Hanoi, Vietnam.</p>
-<div class="cta"><a class="btn" href="mailto:phuonghoatt91@gmail.com">Email me</a><a class="btn o" href="https://www.linkedin.com/in/phuonghoatran/">View LinkedIn</a></div>
+<div class="cta"><a class="btn" href="https://www.linkedin.com/in/phuonghoatran/">Message me on LinkedIn</a><button class="btn o" onclick="cp(this)">Copy email</button></div>
 </div>
 <div class="proof">
 <div><b>4.9/5</b><span>Learner satisfaction, Global English Program</span></div>
@@ -62,7 +63,7 @@ footer{color:var(--mute);font-size:13px;text-align:center;padding:24px 0}
 <div class="card"><h3>Global English Program across 6 international sites</h3>
 <div class="meta">TeKnowledge Ops Vietnam · Instructor &amp; Program Owner · 2022-2025</div>
 <ul><li>Owned a global English communication upskilling program, from content to delivery.</li><li>Built multi-topic content and delivered training across multiple sites.</li><li>Results: 4.9/5 satisfaction, 2.9/3 trainer observation, Trainer of the Year 2024, Q2 Excellence in Action 2024.</li></ul>
-<a href="https://flora3456.wordpress.com/portfolio/global-english-program/">Read the full program</a></div>
+<a href="global-english.html">Read the full program</a></div>
 
 <div class="card"><h3>Hospitality and Culinary English curriculum (CTH/BTEC)</h3>
 <div class="meta">CHM International Institute · T&amp;D Specialist · 2018-2022</div>
@@ -71,8 +72,7 @@ footer{color:var(--mute);font-size:13px;text-align:center;padding:24px 0}
 
 <div class="card"><h3>Interactive English learning website, named a top 3 free platform in Vietnam</h3>
 <div class="meta">Langmaster · Content Team Lead · 2013-2015</div>
-<ul><li>Led the content team and worked with IT and Marketing to launch a site with multimedia and social learning.</li><li>Recognized in 2020 by Spiderum as one of Vietnam's top 3 free English learning platforms.</li><li>Employee of the Year 2014.</li></ul>
-</div>
+<ul><li>Led the content team and worked with IT and Marketing to launch a site with multimedia and social learning.</li><li>Recognized in 2020 by Spiderum as one of Vietnam's top 3 free English learning platforms.</li><li>Employee of the Year 2014.</li></ul></div>
 </section>
 
 <section><h2>What I do as a leader</h2>
@@ -95,8 +95,9 @@ footer{color:var(--mute);font-size:13px;text-align:center;padding:24px 0}
 
 <section id="contact"><div class="contact"><h2>Let's talk about your learning team</h2>
 <p>I reply to recruiters and hiring managers directly.</p>
-<div class="cta" style="justify-content:center"><a class="btn" href="mailto:phuonghoatt91@gmail.com">phuonghoatt91@gmail.com</a><a class="btn o" href="https://www.linkedin.com/in/phuonghoatran/">LinkedIn</a></div></div></section>
+<div class="cta" style="justify-content:center"><a class="btn" href="https://www.linkedin.com/in/phuonghoatran/">Message me on LinkedIn</a><button class="btn o" onclick="cp(this)">Copy email</button></div></div></section>
 </main>
 <footer>© 2026 Hoa (Flora) Tran · Hanoi, Vietnam</footer>
+<script>function cp(b){var e="phuonghoatt91@gmail.com";try{navigator.clipboard.writeText(e).then(function(){b.textContent="Copied: "+e;setTimeout(function(){b.textContent="Copy email"},4000)},function(){b.textContent=e})}catch(x){b.textContent=e}}</script>
 </body>
 </html>
