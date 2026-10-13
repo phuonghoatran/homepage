@@ -17,34 +17,37 @@ a{color:var(--acc)}
 header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--line);z-index:5}
 header .w{display:flex;align-items:center;justify-content:space-between;height:56px}
 header b{font-size:15px}
-nav a{margin-left:16px;color:var(--mute);text-decoration:none;font-size:14px}
+nav a{margin-left:14px;color:var(--mute);text-decoration:none;font-size:14px}
 .btn{display:inline-block;padding:11px 20px;border-radius:8px;background:var(--acc);color:var(--onacc);text-decoration:none;font-weight:600}
 .btn.o{background:none;color:var(--ink);border:1px solid var(--line)}
-.hero{padding:56px 0 32px}
+button.btn{cursor:pointer;font:inherit;font-weight:600}
+.hero{padding:52px 0 24px}
 .tag{display:inline-block;background:var(--accbg);color:var(--acc);padding:4px 12px;border-radius:99px;font-size:13px;font-weight:600}
 h1{font-size:clamp(28px,5vw,44px);line-height:1.15;margin:16px 0}
 .lead{color:var(--mute);font-size:18px;max-width:640px}
 .cta{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
-.proof{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:32px 0}
+.proof{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:28px 0}
 .proof div{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px}
 .proof b{display:block;font-size:26px;color:var(--acc)}
 .proof span{color:var(--mute);font-size:14px}
-section{padding:32px 0}
-h2{font-size:24px;margin:0 0 16px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:22px;margin-bottom:16px}
-.card h3{margin:0 0 4px;font-size:19px}
-.meta{color:var(--mute);font-size:14px;margin-bottom:10px}
-.card ul{margin:8px 0;padding-left:20px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+section{padding:28px 0}
+h2{font-size:26px;margin:0 0 6px}
+.sub{color:var(--mute);margin:0 0 18px}
+h3.grp{font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:var(--mute);margin:26px 0 12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px}
+.card h4{margin:8px 0 6px;font-size:18px}
+.card p{margin:0 0 8px}
+.res{color:var(--acc);font-weight:600;font-size:14px}
+.t{display:inline-block;border:1px solid var(--line);color:var(--mute);padding:2px 10px;border-radius:99px;font-size:12px;margin:0 4px 4px 0}
 .tl{border-left:2px solid var(--line);padding-left:16px;margin:0 0 16px 4px}
 .tl small{color:var(--mute)}
 .contact{text-align:center;background:var(--accbg);border-radius:16px;padding:40px 20px;margin:24px 0}
-button.btn{cursor:pointer;font:inherit;font-weight:600}
 footer{color:var(--mute);font-size:13px;text-align:center;padding:24px 0}
 </style>
 </head>
 <body>
-<header><div class="w"><b>Hoa (Flora) Tran</b><nav><a href="#work">Work</a><a href="#path">Experience</a><a href="#contact">Contact</a></nav></div></header>
+<header><div class="w"><b>Hoa (Flora) Tran</b><nav><a href="#why">Why me</a><a href="#work">Work</a><a href="#path">Experience</a><a href="#contact">Contact</a></nav></div></header>
 <main class="w">
 <div class="hero">
 <span class="tag">Open to L&amp;D Lead / Manager roles</span>
@@ -54,42 +57,44 @@ footer{color:var(--mute);font-size:13px;text-align:center;padding:24px 0}
 </div>
 <div class="proof">
 <div><b>4.9/5</b><span>Learner satisfaction, Global English Program</span></div>
-<div><b>2.9/3</b><span>Trainer observation score</span></div>
+<div><b>+55%</b><span>Average skill improvement</span></div>
 <div><b>6 sites</b><span>International sites in one program</span></div>
 <div><b>2024</b><span>Trainer of the Year, TeKnowledge</span></div>
 </div>
 
-<section id="work"><h2>Featured work</h2>
-<div class="card"><h3>Global English Program across 6 international sites</h3>
-<div class="meta">TeKnowledge Ops Vietnam · Instructor &amp; Program Owner · 2022-2025</div>
-<ul><li>Owned a global English communication upskilling program, from content to delivery.</li><li>Built multi-topic content and delivered training across multiple sites.</li><li>Results: 4.9/5 satisfaction, 2.9/3 trainer observation, Trainer of the Year 2024, Q2 Excellence in Action 2024.</li></ul>
-<a href="global-english.html">Read the full program</a></div>
-
-<div class="card"><h3>Hospitality and Culinary English curriculum (CTH/BTEC)</h3>
-<div class="meta">CHM International Institute · T&amp;D Specialist · 2018-2022</div>
-<ul><li>Led full-cycle curriculum development for Hospitality English, Culinary Arts English and academic skills.</li><li>Aligned programs with CTH/BTEC qualifications.</li><li>Served 230+ learners.</li></ul>
-<a href="https://flora3456.wordpress.com/portfolio/english-for-hotel-cooking-highlights/">See a curriculum example</a></div>
-
-<div class="card"><h3>Interactive English learning website, named a top 3 free platform in Vietnam</h3>
-<div class="meta">Langmaster · Content Team Lead · 2013-2015</div>
-<ul><li>Led the content team and worked with IT and Marketing to launch a site with multimedia and social learning.</li><li>Recognized in 2020 by Spiderum as one of Vietnam's top 3 free English learning platforms.</li><li>Employee of the Year 2014.</li></ul></div>
-</section>
-
-<section><h2>What I do as a leader</h2>
+<section id="why"><h2>Why work with me</h2><p class="sub">Four things I bring, each with proof.</p>
 <div class="grid">
-<div class="card"><h3>Run programs</h3><p>End-to-end ownership of multi-site learning programs, from design to delivery.</p></div>
-<div class="card"><h3>Find the real problem</h3><p>Skill-gap analysis with the Tech team to separate a skill gap from a performance problem before choosing training.</p></div>
-<div class="card"><h3>Build capability</h3><p>Role-based competency frameworks and development plans handed over to managers.</p></div>
-<div class="card"><h3>Use digital and AI</h3><p>Microsoft 365, Articulate Storyline, Moodle and AI tools in learning design.</p></div>
+<div class="card"><h4>Programs that scale</h4><p>One program, 6 international sites. I built a delivery playbook so different trainers deliver and assess the same way, and trained the Costa Rica training team.</p><span class="res">Global English Program</span></div>
+<div class="card"><h4>Results I can measure</h4><p>100% and 95% completion, skills up 55% on average (before and after), a rising QA score trend, and 4.9/5 satisfaction.</p><span class="res">Pilot cohorts, Vietnam</span></div>
+<div class="card"><h4>I fix the right problem</h4><p>Before recommending training, I check whether a skill gap is real or a performance problem with another cause. Then I build the learning path.</p><span class="res">Crossian, skill-gap analysis</span></div>
+<div class="card"><h4>Full-cycle range</h4><p>Content creation, 1000+ hours of teaching, multi-branch program management, and capability frameworks for managers.</p><span class="res">2013 to 2026</span></div>
+</div></section>
+
+<section id="work"><h2>Featured work</h2><p class="sub">Grouped by who I served. Tags show the subject and the tools.</p>
+<h3 class="grp">For working professionals</h3>
+<div class="grid">
+<div class="card"><span class="t">Corporate English</span><span class="t">Soft skills (CARE)</span><span class="t">Digital + classroom</span>
+<h4>Global English Program, 6 international sites</h4><p>A blended 20-hour program for customer support teams: 16 hours self-paced, 4 hours instructor-led.</p><p class="res">100% / 95% completion · 4.9/5 · +55% skills</p><a href="global-english.html">Read the full program</a></div>
+<div class="card"><span class="t">Capability building</span><span class="t">AI-first transformation</span>
+<h4>Behavior-based capability journey</h4><p>Worked with the Tech team on skill-gap analysis. Built a capability journey, then handed individual development plans and role-based competency frameworks to managers.</p><p class="res">Crossian · 2025-2026</p></div>
+</div>
+<h3 class="grp">For students and learners</h3>
+<div class="grid">
+<div class="card"><span class="t">English for Specific Purposes</span><span class="t">Classroom</span>
+<h4>Hospitality and Culinary English</h4><p>Full-cycle curriculum aligned with CTH/BTEC. Learners present a dish to real tourists in Hanoi.</p><p class="res">CHM International Institute · 2018-2022</p><a href="hospitality-english.html">See the project</a></div>
+<div class="card"><span class="t">Academic skills</span><span class="t">Classroom + EdTech</span>
+<h4>Teaching portfolio: 7 learning-by-doing methods</h4><p>Role-play, video projects, Pecha Kucha, street surveys and more.</p><p class="res">20 classes · 230 students · 1000+ hours</p><a href="chm-teaching.html">See my teaching portfolio</a></div>
+<div class="card"><span class="t">General English</span><span class="t">Digital</span>
+<h4>Interactive English learning website</h4><p>Led the content team and worked with IT and Marketing to launch a site with multimedia and social learning.</p><p class="res">Named a top 3 free English platform in Vietnam by Spiderum, 2020 · Langmaster</p></div>
 </div></section>
 
 <section id="path"><h2>Experience</h2>
-<div class="tl"><b>L&amp;D Specialist, Crossian LLC</b><br><small>Sep 2025 - Sep 2026</small><br>Built a behavior-based capability journey during an AI-first transformation.</div>
+<div class="tl"><b>L&amp;D Specialist, Crossian LLC</b><br><small>Sep 2025 - Sep 2026</small></div>
 <div class="tl"><b>Instructor &amp; Program Owner, TeKnowledge Ops Vietnam</b><br><small>Jul 2022 - Aug 2025</small></div>
 <div class="tl"><b>T&amp;D Specialist, CHM International Institute</b><br><small>2018 - 2022</small></div>
 <div class="tl"><b>Associate Program Manager, APAX English</b><br><small>2016 - 2018 · 8 branches</small></div>
 <div class="tl"><b>Corporate Trainer, FPT Software</b><br><small>2015 - 2016</small></div>
-<div class="tl"><b>Content Team Lead, Langmaster</b><br><small>2013 - 2015</small></div>
+<div class="tl"><b>Content Team Lead, Langmaster</b><br><small>2013 - 2015 · Employee of the Year 2014</small></div>
 <p><b>Education:</b> M.Ed, University of the People (2022-2024, GPA 4.0) · TESOL certificate, Arizona State University · BA English Studies, Hanoi University</p>
 </section>
 
